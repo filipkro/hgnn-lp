@@ -5,7 +5,6 @@ import torch.nn as nn
 
 import torch.nn.functional as F
 
-# from parameters import HEADS
 
 DROP_OUT = 0.0
 
@@ -168,8 +167,6 @@ class Model(th.nn.Module):
         x_dict = self._get_embeddings(data, return_embs=return_embs)
         embs = x_dict[-1] if return_embs else x_dict
 
-        # g1 = embs[LINKS[0]][links_to_pred[0]]
-        # g2 = embs[LINKS[2]][links_to_pred[1]]
         all_z = th.tensor([], device=self.device)
         for k, v in edges_to_predict.items():
             h = embs[k[0]][v[0]]
