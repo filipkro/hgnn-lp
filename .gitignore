@@ -6,7 +6,7 @@
 
 
 dataset/ogbl_biokg
-results/*.pkl
+results/*/*.pkl
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
