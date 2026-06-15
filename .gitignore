@@ -4,8 +4,10 @@
 .DS_Store
 .vscode
 
-
+datafiles/codex-l
 dataset/ogbl_biokg
+dataset/biokg
+dataset/codex
 results/*/*.pkl
 
 ### Python ###
