@@ -17,7 +17,7 @@ include instructions on how to generate datasets!!
 
 
 ## How to cite
-If you used our work or found it useful, make sure to cite both the underlying dataset (AIFB, CoDEx, or BioKG), as well as our [paper](https://openreview.net/pdf?id=mRfGldY4SX):
+If you used our work or found it useful, make sure to cite our [paper](https://openreview.net/pdf?id=mRfGldY4SX):
 
 ```
 @misc{kronström2026hierarchyawaresemanticlossesknowledge,
