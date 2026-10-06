@@ -14,3 +14,19 @@ This repository contains the code for in:
 ## TODO:
 include instructions on how to generate datasets!!
 + more documentation
+
+
+## How to cite
+If you used our work or found it useful, make sure to cite both the underlying dataset (AIFB, CoDEx, or BioKG), as well as our [paper](https://openreview.net/pdf?id=mRfGldY4SX):
+
+```
+@misc{kronström2026hierarchyawaresemanticlossesknowledge,
+      title={Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction}, 
+      author={Filip Kronström and Ross D. King},
+      year={2026},
+      eprint={2608.22981},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2608.22981}, 
+}
+```
